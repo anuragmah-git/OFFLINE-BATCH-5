@@ -111,3 +111,30 @@ Phase-3
 # Skip staging
 	git commit -am "submit all pending changes"
 
+# Creating up Local repository
+1. create/initialize a local repository with 'git init' command
+	$ mkdir <create-folder>
+	$ cd <folder-name>
+	$ git init
+	$ git add . or filename
+	$ git commit -m "commit msg"
+(Note - Create same folder name repositry in the github server)
+	$ git remote add <folder-name> <repo-url>
+	$ git push <folder-name> 
+	$ git push --set-upstream <folder-name> master
+
+2. Observe the local repository
+	$ ls -a 
+
+3.create some source code.. ex: vim Login.java
+
+4.Adding the file to STAGE.
+	$ git add <filename>
+
+5.Commiting the file to local repository
+	$ git commit <filename> -m "lgoin module code"
+
+6.Check the log of Login.java using log command.
+	$ git log <filename>
+
+
