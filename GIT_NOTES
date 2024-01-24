@@ -116,6 +116,7 @@ Phase-3
 	$ mkdir <create-folder>
 	$ cd <folder-name>
 	$ git init
+	$ vim filename
 	$ git add . or filename
 	$ git commit -m "commit msg"
 (Note - Create same folder name repositry in the github server)
