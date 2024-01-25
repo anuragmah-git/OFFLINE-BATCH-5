@@ -138,4 +138,24 @@ Phase-3
 6.Check the log of Login.java using log command.
 	$ git log <filename>
 
+========
+Phase-4 
+========
+# History - Deep Dive
+	$ git log <filename>
+	$ git log
+
+	Options:
+		- git log -n2
+		- git log --author="swapnil"
+		- git log --since="2016/12/13"  
+		- git log --until="2016/12/13"
+		- git log --grep="DB code"		
+		- git log --oneline (if we want to see logs on high level that time we can use this command ie. only commit ids and msg)
+
+#Qn.
+Show me all logs committed by user "Ram" AND has a commit message "math function" in it.
+
+$ git log --author="Ram" --grep="commit msg" -n2
+
 
