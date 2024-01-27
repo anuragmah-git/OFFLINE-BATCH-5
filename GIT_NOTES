@@ -158,4 +158,32 @@ Show me all logs committed by user "Ram" AND has a commit message "math function
 
 $ git log --author="Ram" --grep="commit msg" -n2
 
+=======
+Phase-5
+=======
+# GIT Commands
+
+1.  
+	$ git status 
+
+	$ git diff <filename>
+
+	$ git diff --staged <filename> 
+
+	$ git diff  089871935..fc894a6bf6d2e (if we want to see difference between two files)(use commit ids).
+
+2. Deleting a file
+
+	A.) $ git rm <filename>
+	    $ git commit <filename> -m "comment"
+	    $ git push
+       
+4. Renaming a file/folder
+	A.) $ git mv Login.java <new-name>
+	    $ git commit -m "rename Login"
+	    $ git push
+			
+#
+Carry the history for new file from old file
+	- $ git log --follow <new-name>
 
