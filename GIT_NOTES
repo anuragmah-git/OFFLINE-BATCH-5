@@ -260,4 +260,52 @@ HEAD is a pointer in git which
 	- Always points to tip of the current reposiotory
 	- Always points to parent of the next commit
 
+Day-8
+======
+Merging:
+=========
+# FAST-FORWARD MERGE
 
+BEFORE MERGE:
+-------------
+			master
+			 |
+----C1--C2---C3
+			 |
+			 ----------C4----C5  
+								dev_1.2.3
+		
+AFTER MERGE:
+-------------
+ 			     			master
+			     			  |
+----C1----C2---C3------C4----C5
+		             		  |
+			     			dev_1.2.3
+
+
+Excercise:
+===========
+# List all the branches
+	$ git branch
+
+# Create a new branch
+	$ git branch dev_1.2.3
+
+# Add some changes to newely created branch i.e dev_1.2.3
+	$ Modify/Add some files	
+	$ git add	
+	$ git commit 
+
+# Now merge the code from dev_1.2.3 to master branch
+  Before merge, make sure that you are on target branch i.e master (source branch: dev_1.2.3)
+	$ git checkout master
+
+# You have master code in source since currently checkout branch is master. Now bring/merge the changes from dev_1.2.3 to master by running below command. 
+Git merge command merges the changes from dev_1.2.3 to master.
+
+	$ git merge dev_1.2.3
+
+# observe the changes from dev_1.2.3 into master branch.
+
+# git push --all
