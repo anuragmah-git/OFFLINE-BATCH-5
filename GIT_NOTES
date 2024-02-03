@@ -361,4 +361,10 @@ If two users modify the same file in source and target branches and if the same 
 - git commit
 - git push --all
 
+# How to delete branch from local
+git branch -d/-D <branchName> (the -D option is for force deletion)
 
+How to delete remote branch from local
+git push origin -d <branchName> or git push origin :<branchName>
+
+git cherry-pick <sha-value>
