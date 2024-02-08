@@ -158,3 +158,64 @@ Artifact path in local repository .m2
 - Package naming convention:
 	artifactId-version.war (FOR EX. flipkart-1.1-SNAPSHOT.war)
 
+
+PROJECT-01 --> CREATE MAVEN web application for flipkart and perform end-to-end build and deployment.
+===========    =======================================================================================
+
+#
+create one folder where we want to store our project
+$ mkdir WebApplicationProjects
+
+#
+go to that created folder i.e. sourceCode 
+$ cd WebApplicationProjects/
+
+# 
+After Create Maven web application project in our created directory usign below command.
+$ mvn archetype:generate -DgroupId=com.GRRAS -DartifactId=GRRAS -Dversion=1.0-SNAPSHOT -DinteractiveMode=false -DarchetypeArtifactId=maven-archetype-webapp
+      
+	=> archetype:generate - this is generating maven project.
+        => DgroupId - this is package name. 
+	=> DartifactId - this is project name. 
+	=> Dversion - this is version. 
+	=> DinteractiveMode - keep always interactivemode is on false.
+ (Note :- Here project name is GRRAS)
+
+#
+After go to the project directory
+$ cd projectName/
+
+#
+After entering project directory Build the application using below Maven command
+$ mvn install
+
+#
+After mvn install target folder is creating in project folder in this folder Check final artifact i.e GRRAS.war file in target directory 
+ (For ex. (pom.xml  src  target) like this)
+$ ls target 
+
+#
+Then Prepare tomcat for deployments / installation
+- Download tomcat tar.gz file from apache.org site THEN 
+- Extract it. THEN 
+- Make sure JAVA_HOME and M2_HOME environment variable is set in .bashrc file.
+
+#
+Then copy GRRAS.war file from target folder to tomcat webapps folder means, (Deploy GRRAS.war into tomcat webapp).
+$ cp GRRAS.war $TOMCAT_HOME/webapps
+
+#
+Start tomcat server
+$ $TOMCAT_HOME/bin/./startup.sh
+
+Stop tomcat server
+$ $TOMCAT_HOME/bin/./shutdown.sh
+
+#
+Launch application with below URL.
+http://localhost or system-IP:8080/GRRAS
+[http://tomcat_server_name:8080/warfilename]
+
+#
+find IP using below command
+$ hostname -i
