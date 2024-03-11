@@ -1,0 +1,84 @@
+Q1. What is Docker?
+	
+
+Q2. What are the differences between Physical Server and Docker and VM ?
+					
+
+Q3. What is the advantage of Docker over hypervisors?
+	
+
+Q4. Explain the architecture of Docker
+
+
+
+Q5. What is Docker container?
+	
+
+Q6. What is Docker Image?
+	
+
+Q7 What is Docker hub?
+	
+
+Q8. What is Dockerfile used for?
+	
+
+Q9. How to create Docker container?
+	
+
+Q10. How to stop and restart the Docker container?
+	
+
+Q11. What platforms does Docker run on?
+	
+
+Q12. Which platform docker not run?
+	
+
+Q13. Do I lose my data when the Docker container exits?
+	
+
+Q14. What, in your opinion, is the most exciting potential use for Docker?
+
+	
+
+Q15. Why is Docker the new craze in virtualization and cloud computing?
+
+	
+
+Q16. Why do my services take 10 seconds to recreate or stop?
+
+	
+  
+Q17. How many containers can run per host?
+	
+
+Q18. Will cloud automation overtake containerization any sooner?
+	
+
+Q19. Is there a way to identify the status of a Docker container?
+	
+
+Q20. What are the differences between the ‘docker run’ and the ‘docker create’?
+	
+
+Q21. What are the various states that a Docker container can be in at any given point in time?
+
+	
+Q22. Can you remove a paused container from Docker?
+
+	
+
+Q23. Is there a possibility that a container can restart all by itself in Docker?
+
+	
+
+Q24. What is the preferred way of removing containers - ‘docker rm -f’ or ‘docker stop’ then followed by a ‘docker rm’?
+
+	
+
+Q25. Difference between Docker Image and container?
+
+	
+
+Q26. How to set fixed ipaddress for container
