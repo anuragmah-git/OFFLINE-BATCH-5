@@ -1,0 +1,6 @@
+if [ $ENVIRONMENT = "QA" ];then
+        sshpass -p "dev" scp target/CICD.war grras@172.17.0.2:/home/grras/appfiles/apache-tomcat-9.0.79/webapps
+elif  [ $ENVIRONMENT = "UAT" ];then
+         cp target/CICD.war /home/swapnil/Documents/DevOps-Software/apache-tomcat-9.0.79/webapps
+echo "deployment has been done!"
+fi
