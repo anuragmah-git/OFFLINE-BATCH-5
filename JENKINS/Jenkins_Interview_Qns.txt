@@ -1,0 +1,178 @@
+===============================================
+
+1.) What is continuos integration C.I. & Continuous Delivery C.D and Contineous Deployment C.D.?
+
+	
+
+2.) How do you change Jenkins HOME directory??
+
+	
+3.) How many ways for Jenkins installation?
+
+	
+
+4.) Why we need continous Integration?
+	
+5.) Have you created jenkins job or just worked on existing jenkins environment?
+	
+
+	 
+6.) How do you create a new build/jenkins job?
+	
+
+
+7.) How do you install jenkins? What are the different ways?
+	
+
+
+8.) How do you setup a crontab in linux?
+		 
+
+	
+9.) What is the difference between Poll SCM & build periodically in Jenkins?
+	
+
+
+10.) How do you migrate jenkins from one server to another?
+	 
+
+11.) How do you start/stop jenkins?
+	
+	
+
+12.) Jenkins is running some jobs and I want to restart it. How do you restart? or How do you restart the jenkins without interrupting running jobs?
+
+
+
+13.) What is the default port number of jenkins?
+	
+
+14.) How do you change the port number for Jenkins?
+	
+
+15.) How do you check Jenkins logs? or How do you check your Application logs?
+				  
+
+16.) What challenges you faced while working with Jenkins? OR What are the common issues you see in Jenkins?
+
+		
+17.) Where does Jenkins store global and job related configurations?
+	
+
+18.) Where Jenkins stores all plugins data?
+
+
+19.) I want to modify JDK version from 1.7 to 1.8 in 1000 jobs? How do you do it?
+
+
+20.) How do you setup build and deployment for your project?
+	
+
+21.) How many builds you store in your jenkins?
+	
+22.) How do you rotate logs for your Jenkins? 
+	
+
+23.) How do you backup your jenkins data?
+	
+
+24.) How do you configure different jenkins jobs to run with different JDKs?
+
+25.) How do you configure security for your jenkins? Are you using LDAP for authentication?
+	
+26.) What is matrix based security? How do you provide access to your users?
+	
+
+27.) What is a plugin? What plugins you installed? Name few plugins which you have used?
+	
+
+28.) What are the different ways of installing a plugin?
+	
+	
+29.) What is "Reload configurations from the Disk"? when do you use this?
+
+
+30.) How do you take back up for only jobs? excluding WS?
+
+
+31.) How do you set up distributed builds?
+
+32.) How many slave nodes you have?
+ 	-
+
+33.) What is a label?
+    	
+
+34.) what kind of problems you faced with your jenkins so far?
+
+
+35.) Suddenly my Jenkins instance became slow. What steps do you take to improve the performance?
+
+
+36.) how much you rate yourself in jenknins?
+	-
+
+37.) Do you have experience with .Net builds?
+	-
+
+38.) How do you upgrade jenkins?
+	
+
+39.) Can you name few Jenkins Features? 
+	    
+
+40.) How do you setup Jenkins from scratch?
+	- 
+
+41.) What are the prerequisites for Jenkins?
+	
+
+42.) how do you deploy an application in tomcat?
+			OR
+     can you explain how the deployment happens for your project?
+        
+
+43.) What is the difference between web server and application server?
+	
+
+44.) What is parameterised build job? How do you set it up?
+
+45.) What is build pipeline? have you created build pipelines?
+
+
+46.)How do you set up the crontab?
+		OR
+    can you explain crontab syntax?
+		OR
+    how to create/remove crontabs?
+
+	
+47.)What is No. of executers in jenkins?
+
+	
+
+48.) How will you explain the concept of pipeline in Jenkins?
+
+	
+
+49.) Define the continuous delivery pipeline in Jenkins?
+
+	
+50.) What is Jenkins File and why it is needed in DevOps?
+
+
+
+
+# Jenkins with .NET framework
+=============================
+	
+
+51.)How can you temporarily turn off Jenkins security if the administrative users have locked themselves out of the admin console?
+
+
+
+
+
+ 
+
+
